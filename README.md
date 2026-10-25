@@ -37,6 +37,13 @@ dependencies:
   get_thumbnail_video: ^0.7.3
 ```
 
+### iOS Swift Package Manager support
+
+The iOS plugin supports both Swift Package Manager and CocoaPods. Flutter 3.24
+and later can use Swift Package Manager when enabled; Flutter 3.44 and later
+uses it by default. The package includes the required libwebp dependency and
+privacy manifest. Existing projects can continue using CocoaPods.
+
 **import**
 
 ```dart
